@@ -1,3 +1,10 @@
+<title not provided> - Mon, 01 Jun 2015 19:16:32 GMT
+----------------------------------------------------
+
+- [dbecec8](../../commit/dbecec8) [changed] Re-run npm init against package
+
+
+
 v0.5.2 - Mon, 01 Jun 2015 17:40:44 GMT
 --------------------------------------
 
