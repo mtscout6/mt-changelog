@@ -1,6 +1,5 @@
 import commander from 'commander';
 import { version } from '../package.json';
-import path from 'path';
 
 export const defaultCommitFilterRgx = '\\[(added|removed|changed|fixed)\\]';
 
@@ -36,6 +35,11 @@ export default function parseCliArgs(argv) {
     '-f, --formatter [formatter]',
     'formatter to use: basic',
     'basic'
+  );
+  program.option(
+    '--exclude-pre-releases',
+    'option to exclude pre-releases',
+    false
   );
   program.parse(argv);
 

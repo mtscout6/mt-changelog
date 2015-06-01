@@ -47,6 +47,16 @@ describe('latest tag', function() {
     lastSemverTag(tags).should.eql('v1.2.3');
   });
 
+  it('sorts pre release semver tags, reverse', function() {
+    let tags = ['v1.2.3', 'v1.3.3-beta.0'];
+    lastSemverTag(tags).should.eql('v1.3.3-beta.0');
+  });
+
+  it('excludes pre release semver tags', function() {
+    let tags = ['v1.2.3', 'v1.3.3-beta.0'];
+    lastSemverTag(tags, true).should.eql('v1.2.3');
+  });
+
   it('gets the latest version from git tags (assumes the version in package.json is the latest tagged version)', function(done) {
     latestTag()
       .should.eventually.eql(`v${version}`)

@@ -1,5 +1,4 @@
 import { exec } from 'child-process-promise';
-import semver from 'semver';
 
 export function parseLog(logEntries, commitFilterRgx) {
   return logEntries

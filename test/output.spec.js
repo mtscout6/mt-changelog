@@ -10,9 +10,9 @@ const tmpName = () => {
       }
 
       resolve(tmpPath);
-    })
+    });
   });
-}
+};
 
 function restore(x) {
   if (typeof x.restore === 'function') {
