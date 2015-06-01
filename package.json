@@ -2,6 +2,10 @@
   "name": "mt-changelog",
   "version": "0.5.2",
   "description": "creates changelogs for git projects",
+  "repository": {
+    "type": "git",
+    "url": "mtscout6/mt-changelog"
+  },
   "main": "lib/index.js",
   "directories": {
     "lib": "lib/"
