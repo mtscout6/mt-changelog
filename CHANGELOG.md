@@ -1,3 +1,10 @@
+v0.5.0 - Mon, 24 Nov 2014 16:52:44 GMT
+--------------------------------------
+
+- [2ffd9a7](../../commits/2ffd9a7) [changed] Rename project to mt-changelog
+- [f554a22](../../commits/f554a22) [added] Allow to exclude pre-releases
+- [e638690](../../commits/e638690) [added] Expose node api and custom formatter support
+
 v0.4.0 - Mon, 24 Nov 2014 16:52:44 GMT
 --------------------------------------
 
