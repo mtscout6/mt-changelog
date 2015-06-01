@@ -1,3 +1,10 @@
+v0.5.2 - Mon, 01 Jun 2015 17:40:44 GMT
+--------------------------------------
+
+- [533974a](../../commit/533974a) [fixed] Pass exclude pre release flag to latestTag function
+
+
+
 v0.5.1 - Mon, 01 Jun 2015 17:07:25 GMT
 --------------------------------------
 
