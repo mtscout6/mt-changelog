@@ -3,6 +3,17 @@
   "version": "0.5.0",
   "description": "creates changelogs for git projects",
   "main": "lib/index.js",
+  "directories": {
+    "lib": "lib/"
+  },
+  "files": [
+    "CHANGELOG.md",
+    "LICENSE",
+    "README.md",
+    "bin",
+    "dist",
+    "lib"
+  ],
   "bin": {
     "changelog": "bin/changelog"
   },
