@@ -45,5 +45,13 @@
     "sinon": "^1.14.1",
     "sinon-chai": "^2.7.0",
     "tmp": "0.0.26"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mtscout6/mt-changelog.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mtscout6/mt-changelog/issues"
+  },
+  "homepage": "https://github.com/mtscout6/mt-changelog#readme"
 }
