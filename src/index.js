@@ -3,7 +3,7 @@ import gitLog from './git-log';
 import output from './output';
 
 export default function(options) {
-  return latestTag()
+  return latestTag(options.excludePreReleases)
     .then(lastTag => gitLog(lastTag, options.message))
     .then(log => {
       let formattedLog = options.formatter({
