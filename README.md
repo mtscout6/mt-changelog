@@ -1,4 +1,4 @@
-rf-changelog
+mt-changelog
 ============
 
 Creates simple changelogs from your git commits in markdown with links
@@ -20,7 +20,7 @@ when viewed from github.
 ## installation
 
 ```sh
-$ npm install rf-changelog
+$ npm install mt-changelog
 ```
 
 ## Example
@@ -35,14 +35,14 @@ $ changelog -t v2.1.0
 Node
 
 ```javascript
-var changelog = require('rf-changelog');
+var changelog = require('mt-changelog');
 
 options = {
   stdout: false,
   out: 'CHANGELOG.md',
   title: 'v1.2.3',
   message: /\[(added|removed|changed|fixed)\]/,
-  formatter: require('rf-changelog/lib/formatters/basic')
+  formatter: require('mt-changelog/lib/formatters/basic')
 };
 
 // Returns a Promise
