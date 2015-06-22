@@ -37,7 +37,7 @@
   "devDependencies": {
     "babel": "^5.4.7",
     "babel-eslint": "^3.1.9",
-    "chai": "^2.2.0",
+    "chai": "^3.0.0",
     "chai-as-promised": "^5.0.0",
     "eslint": "^0.22.1",
     "eslint-plugin-mocha": "^0.2.2",
