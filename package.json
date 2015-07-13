@@ -18,8 +18,8 @@
     "changelog": "bin/changelog"
   },
   "scripts": {
-    "build": "babel src --out-dir lib",
-    "prepublish": "rm -rf lib && npm run build",
+    "build": "rm -rf lib && babel src --out-dir lib",
+    "prepublish": "npm run build",
     "test": "npm run lint && mocha",
     "test-watch": "mocha -w",
     "lint": "eslint ./"
