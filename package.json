@@ -36,10 +36,10 @@
   },
   "devDependencies": {
     "babel": "^5.4.7",
-    "babel-eslint": "^3.1.9",
+    "babel-eslint": "^4.0.5",
     "chai": "^3.0.0",
     "chai-as-promised": "^5.0.0",
-    "eslint": "^0.24.0",
+    "eslint": "^1.0.0",
     "eslint-plugin-mocha": "^0.4.0",
     "mocha": "^2.2.1",
     "sinon": "^1.14.1",
