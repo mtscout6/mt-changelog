@@ -1,3 +1,5 @@
+/* eslint no-console: 0 */
+
 import output from '../src/output';
 import tmp from 'tmp';
 import fsp from 'fs-promise';
@@ -124,4 +126,3 @@ describe('output', function() {
       .catch(err => done(err));
   });
 });
-
