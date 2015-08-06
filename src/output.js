@@ -2,7 +2,7 @@ import fsp from 'fs-promise';
 
 export default function output({ stdout, filepath, formattedLog }) {
   if (stdout) {
-    console.log(formattedLog);
+    console.log(formattedLog); // eslint-disable-line no-console
     return Promise.resolve();
   }
 
