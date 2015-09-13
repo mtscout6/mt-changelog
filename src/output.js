@@ -1,4 +1,5 @@
 import fsp from 'fs-promise';
+import Promise from 'promise';
 
 export default function output({ stdout, filepath, formattedLog }) {
   if (stdout) {
