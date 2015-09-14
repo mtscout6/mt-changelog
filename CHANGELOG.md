@@ -1,3 +1,11 @@
+v0.6.2 - Mon, 14 Sep 2015 20:52:47 GMT
+--------------------------------------
+
+- [a8deb3a](../../commit/a8deb3a) [added] 'release-script'
+- [00c3885](../../commit/00c3885) [fixed] provide missing promise implementation for env missing it
+- [c8d4ce8](../../commit/c8d4ce8) [fixed] provide missing promise implementation for env missing it
+
+
 <title not provided> - Mon, 01 Jun 2015 19:16:32 GMT
 ----------------------------------------------------
 
