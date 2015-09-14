@@ -19,7 +19,7 @@
   },
   "scripts": {
     "build": "rm -rf lib && babel src --out-dir lib",
-    "prepublish": "npm run build",
+    "release": "release",
     "test": "npm run lint && mocha",
     "test-watch": "mocha -w",
     "lint": "eslint ./"
@@ -44,6 +44,8 @@
     "eslint-config-defaults": "^3.1.0",
     "eslint-plugin-mocha": "^0.4.0",
     "mocha": "^2.2.1",
+    "release-script": "^0.2.7",
+    "rf-changelog": "^0.4.0",
     "sinon": "^1.14.1",
     "sinon-chai": "^2.7.0",
     "tmp": "0.0.26"
