@@ -6,7 +6,7 @@ v0.6.2 - Mon, 14 Sep 2015 20:52:47 GMT
 - [c8d4ce8](../../commit/c8d4ce8) [fixed] provide missing promise implementation for env missing it
 
 
-<title not provided> - Mon, 01 Jun 2015 19:16:32 GMT
+v0.5.3 - Mon, 01 Jun 2015 19:16:32 GMT
 ----------------------------------------------------
 
 - [dbecec8](../../commit/dbecec8) [changed] Re-run npm init against package
